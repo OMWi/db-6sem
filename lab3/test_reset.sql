@@ -1,4 +1,3 @@
-drop procedure proc;
 drop procedure prod.proc;
 drop procedure prod.test_proc;
 drop function prod.test_func;

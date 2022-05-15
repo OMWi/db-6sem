@@ -9,11 +9,6 @@
 --end;
 --/
 
-SELECT text FROM all_source WHERE owner = 'DEV' AND name = 'PROC';
-SELECT text FROM all_source WHERE owner = 'DEV' AND name = 'TEST_PROC';
-SELECT text FROM all_source WHERE owner = 'DEV' AND name = 'TEST_FUNC';
---SELECT text FROM all_source where name = 'GROUPS';
---drop TABLE PROD.books;
 
 BEGIN
     compare_schemas('DEV', 'PROD');

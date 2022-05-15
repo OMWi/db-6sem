@@ -9,6 +9,6 @@
 
 --SELECT table_name as name FROM all_tables where owner = 'DEV';
 
-BEGIN
-    compare_schemas('DEV', 'PROD');
-END;
+--BEGIN
+--    compare_schemas('DEV', 'PROD');
+--END;

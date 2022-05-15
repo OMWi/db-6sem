@@ -11,9 +11,20 @@ create table dev.groups(
     CONSTRAINT groups_pk PRIMARY KEY(id)
 );
 
-create or replace procedure dev.proc as
+--create or replace procedure dev.proc as
+--begin
+--    dbms_output.put_line('Hello world!');
+--end;
+--/
+
+create procedure dev.test_proc as 
 begin
     dbms_output.put_line('Hello world!');
+end;
+/
+create function dev.test_func return number as
+begin
+    return 0;
 end;
 /
 
